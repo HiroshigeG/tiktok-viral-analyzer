@@ -1,0 +1,359 @@
+{
+  "brand": "genesis",
+  "profile": "@genesis",
+  "scraped_at": "2026-05-01T12:00:00Z",
+  "pool_size": 40,
+  "videos": [
+    {
+      "id": "gn_001",
+      "brand": "genesis",
+      "url": "https://www.tiktok.com/@genesis/video/gn001",
+      "thumb": "data/raw/thumbs/gn_001.jpg",
+      "local_video_path": "",
+      "text": "Diamond quilted to perfection. #genesis #craft",
+      "created_at": "2026-04-08T10:00:00Z",
+      "author": {
+        "name": "@genesis",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 1610000,
+        "likes": 125000,
+        "comments": 18000,
+        "shares": 13170,
+        "engagement_rate": 9.7
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "the stitching on that leather is insane quality",
+          "likes": 3200,
+          "author": "@user25"
+        },
+        {
+          "text": "this is what takumi craft looks like",
+          "likes": 2800,
+          "author": "@user26"
+        },
+        {
+          "text": "asmr for car lovers honestly",
+          "likes": 2400,
+          "author": "@user27"
+        },
+        {
+          "text": "want this more than anything",
+          "likes": 2000,
+          "author": "@user28"
+        },
+        {
+          "text": "this beats bmw on interior craft easily",
+          "likes": 1700,
+          "author": "@user29"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_311",
+          "title": "stitching asmr pack",
+          "author": "@asmrworld",
+          "is_original": false
+        },
+        "hashtags": [
+          "genesis",
+          "luxury",
+          "carfyp",
+          "craft"
+        ],
+        "duration_sec": 20
+      }
+    },
+    {
+      "id": "gn_002",
+      "brand": "genesis",
+      "url": "https://www.tiktok.com/@genesisowner_sara/video/gn002",
+      "thumb": "data/raw/thumbs/gn_002.jpg",
+      "local_video_path": "",
+      "text": "Night cabin. Rain outside. #genesis #owner",
+      "created_at": "2026-04-11T21:00:00Z",
+      "author": {
+        "name": "@genesisowner_sara",
+        "verified": false,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 1240000,
+        "likes": 100000,
+        "comments": 16000,
+        "shares": 9240,
+        "engagement_rate": 10.1
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "this is quiet luxury in every sense",
+          "likes": 3400,
+          "author": "@user30"
+        },
+        {
+          "text": "the rain and the ambient sound is perfect",
+          "likes": 3000,
+          "author": "@user31"
+        },
+        {
+          "text": "on my second genesis never going back",
+          "likes": 2700,
+          "author": "@user32"
+        },
+        {
+          "text": "dream car seriously saving up",
+          "likes": 2300,
+          "author": "@user33"
+        },
+        {
+          "text": "owner content always feels more honest",
+          "likes": 1900,
+          "author": "@user34"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_004",
+          "title": "original sound",
+          "author": "@genesisowner_sara",
+          "is_original": true
+        },
+        "hashtags": [
+          "genesis",
+          "luxury",
+          "carfyp",
+          "ownerlife"
+        ],
+        "duration_sec": 32
+      }
+    },
+    {
+      "id": "gn_003",
+      "brand": "genesis",
+      "url": "https://www.tiktok.com/@creator_alex/video/gn003",
+      "thumb": "data/raw/thumbs/gn_003.jpg",
+      "local_video_path": "",
+      "text": "One motion. One reveal. #genesis",
+      "created_at": "2026-04-14T15:00:00Z",
+      "author": {
+        "name": "@creator_alex",
+        "verified": true,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 800000,
+        "likes": 47000,
+        "comments": 8000,
+        "shares": 5000,
+        "engagement_rate": 7.5
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "gorgeous reveal that was satisfying",
+          "likes": 2100,
+          "author": "@user35"
+        },
+        {
+          "text": "the detail on that handle is beautiful",
+          "likes": 1800,
+          "author": "@user36"
+        },
+        {
+          "text": "creator content always hits different",
+          "likes": 1500,
+          "author": "@user37"
+        },
+        {
+          "text": "love how they held that shot",
+          "likes": 1200,
+          "author": "@user38"
+        },
+        {
+          "text": "need this car",
+          "likes": 900,
+          "author": "@user39"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_501",
+          "title": "cinematic reveal 2026",
+          "author": "@cinemusic",
+          "is_original": false
+        },
+        "hashtags": [
+          "genesis",
+          "carfyp",
+          "luxury",
+          "reveal"
+        ],
+        "duration_sec": 17
+      }
+    },
+    {
+      "id": "gn_004",
+      "brand": "genesis",
+      "url": "https://www.tiktok.com/@creator_kim/video/gn004",
+      "thumb": "data/raw/thumbs/gn_004.jpg",
+      "local_video_path": "",
+      "text": "Drop incoming. #genesis #trending",
+      "created_at": "2026-04-17T18:00:00Z",
+      "author": {
+        "name": "@creator_kim",
+        "verified": true,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 720000,
+        "likes": 38000,
+        "comments": 6500,
+        "shares": 4460,
+        "engagement_rate": 6.8
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "that beat drop synced perfectly",
+          "likes": 1800,
+          "author": "@user40"
+        },
+        {
+          "text": "the audio is everything here",
+          "likes": 1600,
+          "author": "@user41"
+        },
+        {
+          "text": "amazing car love this sound",
+          "likes": 1400,
+          "author": "@user42"
+        },
+        {
+          "text": "want this now",
+          "likes": 1100,
+          "author": "@user43"
+        },
+        {
+          "text": "fire content fr",
+          "likes": 900,
+          "author": "@user44"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_601",
+          "title": "trending drop pack v4",
+          "author": "@beatmaker",
+          "is_original": false
+        },
+        "hashtags": [
+          "genesis",
+          "trending",
+          "carfyp",
+          "luxury"
+        ],
+        "duration_sec": 12
+      }
+    },
+    {
+      "id": "gn_005",
+      "brand": "genesis",
+      "url": "https://www.tiktok.com/@genesis/video/gn005",
+      "thumb": "data/raw/thumbs/gn_005.jpg",
+      "local_video_path": "",
+      "text": "The new GV80. Features and specs. #genesis",
+      "created_at": "2026-04-19T13:00:00Z",
+      "author": {
+        "name": "@genesis",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 210000,
+        "likes": 3200,
+        "comments": 750,
+        "shares": 460,
+        "engagement_rate": 2.1
+      },
+      "performance_tier": "bottom",
+      "comments": [
+        {
+          "text": "too many numbers and specs on screen",
+          "likes": 180,
+          "author": "@user45"
+        },
+        {
+          "text": "the voiceover is so boring",
+          "likes": 140,
+          "author": "@user46"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_406",
+          "title": "brand showcase loop",
+          "author": "@stockmusic",
+          "is_original": false
+        },
+        "hashtags": [
+          "genesis",
+          "luxury",
+          "newcar"
+        ],
+        "duration_sec": 30
+      }
+    },
+    {
+      "id": "gn_006",
+      "brand": "genesis",
+      "url": "https://www.tiktok.com/@genesis/video/gn006",
+      "thumb": "data/raw/thumbs/gn_006.jpg",
+      "local_video_path": "",
+      "text": "Power. Performance. Genesis. #genesis #luxury",
+      "created_at": "2026-04-21T12:00:00Z",
+      "author": {
+        "name": "@genesis",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 120000,
+        "likes": 1300,
+        "comments": 350,
+        "shares": 150,
+        "engagement_rate": 1.5
+      },
+      "performance_tier": "bottom",
+      "comments": [
+        {
+          "text": "feels like a regular commercial compared to lexus",
+          "likes": 90,
+          "author": "@user47"
+        },
+        {
+          "text": "nothing special here",
+          "likes": 70,
+          "author": "@user48"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_005",
+          "title": "original sound",
+          "author": "@genesis",
+          "is_original": true
+        },
+        "hashtags": [
+          "genesis",
+          "luxury"
+        ],
+        "duration_sec": 30
+      }
+    }
+  ]
+}

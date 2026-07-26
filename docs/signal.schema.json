@@ -1,0 +1,238 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lexus-signal/signal.schema.json",
+  "title": "Signal output contract",
+  "description": "The single interface between the offline pipeline and the static frontend. signal.py produces this; web/index.html renders it. Frozen by the lead. All string values that render in the UI must obey the brand voice rule: no hyphen or em dash as a generic connector.",
+  "type": "object",
+  "required": ["meta", "segnale", "insight", "direzione"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["generated_at", "brands", "n_videos", "method_note"],
+      "additionalProperties": true,
+      "properties": {
+        "generated_at": { "type": "string", "description": "ISO-8601 timestamp" },
+        "brands": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "lowercase brand keys, e.g. [\"lexus\",\"genesis\",\"bmw\"]"
+        },
+        "n_videos": { "type": "integer", "minimum": 0 },
+        "method_note": {
+          "type": "string",
+          "description": "Honesty note: public metrics are real; craft + strategy are dual-model inference (Gemini + Claude), labeled as such."
+        },
+        "claude_available": { "type": "boolean", "description": "true if the Claude strategic layer ran live; false if authored fallback was used" }
+      }
+    },
+
+    "segnale": {
+      "type": "object",
+      "description": "ACT 01 SEGNALE. The signal in the noise: what wins in the category and how winners differ from losers.",
+      "required": ["winning_patterns", "baseline_delta", "top_videos"],
+      "additionalProperties": false,
+      "properties": {
+        "winning_patterns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["pattern", "frequency", "avg_engagement", "evidence_video_ids"],
+            "additionalProperties": true,
+            "properties": {
+              "pattern": { "type": "string" },
+              "frequency": { "type": "string", "description": "human readable count, e.g. \"7/12\"" },
+              "avg_engagement": { "type": "number", "description": "average engagement rate (percent) for videos showing this pattern" },
+              "evidence_video_ids": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "baseline_delta": {
+          "type": "array",
+          "description": "The control. What top performers do that bottom performers do not, per dimension.",
+          "items": {
+            "type": "object",
+            "required": ["dimension", "winners", "losers", "delta_note"],
+            "additionalProperties": true,
+            "properties": {
+              "dimension": { "type": "string", "description": "e.g. hook_type, pacing, audio, text_overlay, who" },
+              "winners": { "type": "string" },
+              "losers": { "type": "string" },
+              "delta_note": { "type": "string" }
+            }
+          }
+        },
+        "top_videos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "brand", "url", "views", "engagement", "who", "hook_type", "craft"],
+            "additionalProperties": true,
+            "properties": {
+              "id": { "type": "string" },
+              "brand": { "type": "string" },
+              "url": { "type": "string" },
+              "thumb": { "type": "string", "description": "relative path under web/, e.g. assets/thumbs/<id>.jpg, or a remote cover url. May be empty string if unavailable." },
+              "views": { "type": "integer", "minimum": 0 },
+              "engagement": { "type": "number", "description": "engagement rate (percent)" },
+              "who": { "type": "string", "enum": ["owner", "brand", "creator"] },
+              "hook_type": { "type": "string" },
+              "craft": {
+                "type": "object",
+                "required": ["hook", "structure", "audio", "why"],
+                "additionalProperties": true,
+                "properties": {
+                  "hook": { "type": "string" },
+                  "structure": { "type": "string" },
+                  "audio": { "type": "string" },
+                  "why": { "type": "array", "items": { "type": "string" } }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "insight": {
+      "type": "object",
+      "description": "ACT 02 INSIGHT. The thing native analytics cannot see: who is winning for Lexus (owners vs brand), where Lexus sits vs the category, and the audience voice from real comments.",
+      "required": ["owners_vs_brand", "brand_gap", "audience_voice"],
+      "additionalProperties": false,
+      "properties": {
+        "owners_vs_brand": {
+          "type": "object",
+          "required": ["owner_share_pct", "brand_share_pct", "evidence"],
+          "additionalProperties": true,
+          "properties": {
+            "owner_share_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "brand_share_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "evidence": {
+              "type": "array",
+              "description": "supporting items: strings or small objects {label, value}",
+              "items": { "type": ["string", "object"] }
+            }
+          }
+        },
+        "brand_gap": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["category_winning_trait", "brand_today", "gap_note", "brand_fit_score"],
+            "additionalProperties": true,
+            "properties": {
+              "category_winning_trait": { "type": "string" },
+              "brand_today": { "type": "string" },
+              "gap_note": { "type": "string" },
+              "brand_fit_score": { "type": "number", "minimum": 0, "maximum": 1, "description": "how on-brand this winning trait is for Lexus, per docs/brand-brief.md rubric" }
+            }
+          }
+        },
+        "audience_voice": {
+          "type": "array",
+          "description": "clusters of real comments, the audience speaking in its own words",
+          "items": {
+            "type": "object",
+            "required": ["cluster", "sentiment", "volume", "sample_comments"],
+            "additionalProperties": true,
+            "properties": {
+              "cluster": { "type": "string" },
+              "sentiment": { "type": "string", "enum": ["pos", "neg", "mixed"] },
+              "volume": { "type": "integer", "minimum": 0 },
+              "sample_comments": { "type": "array", "items": { "type": "string" }, "description": "verbatim real comments, lightly trimmed only" }
+            }
+          }
+        },
+        "geo": {
+          "type": "object",
+          "description": "Creator origin (NOT audience location). Public TikTok data does not expose viewer geography; this is where the posting accounts are based. Optional, backward compatible.",
+          "required": ["note", "countries"],
+          "additionalProperties": true,
+          "properties": {
+            "note": { "type": "string" },
+            "total_located": { "type": "integer", "minimum": 0 },
+            "countries": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["country", "count"],
+                "additionalProperties": true,
+                "properties": {
+                  "code": { "type": "string" },
+                  "country": { "type": "string" },
+                  "flag": { "type": "string" },
+                  "count": { "type": "integer", "minimum": 0 },
+                  "pct": { "type": "number" },
+                  "avg_engagement": { "type": "number" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "direzione": {
+      "type": "object",
+      "description": "ACT 03 DIREZIONE. The payoff: a creative brief, not a number.",
+      "required": ["brief", "next_moves"],
+      "additionalProperties": false,
+      "properties": {
+        "brief": {
+          "type": "object",
+          "required": ["title", "thesis", "concept", "format", "hook_formula", "ties_to"],
+          "additionalProperties": true,
+          "properties": {
+            "title": { "type": "string" },
+            "thesis": { "type": "string" },
+            "concept": { "type": "string" },
+            "format": { "type": "string" },
+            "hook_formula": { "type": "string" },
+            "ties_to": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "the winning traits the brief builds on, drawn from insight.brand_gap"
+            }
+          }
+        },
+        "next_moves": { "type": "array", "items": { "type": "string" } },
+        "generation": {
+          "type": "object",
+          "description": "The make step. A generation ready prompt synthesized from the signal (winning patterns, brand fit, brief), so the loop closes from sense to make. Optional, backward compatible.",
+          "required": ["title", "derived_from", "blocks", "loop"],
+          "additionalProperties": true,
+          "properties": {
+            "title": { "type": "string" },
+            "derived_from": { "type": "string", "description": "human readable provenance, e.g. \"5 winning patterns, brand fit at least 0.8, owner POV lane\"" },
+            "blocks": {
+              "type": "array",
+              "description": "the structured prompt, one entry per directive (SCENE, CAMERA, LIGHT, AUDIO, GRADE, NEGATIVE, PIPELINE)",
+              "items": {
+                "type": "object",
+                "required": ["label", "value"],
+                "additionalProperties": false,
+                "properties": {
+                  "label": { "type": "string" },
+                  "value": { "type": "string" }
+                }
+              }
+            },
+            "loop": {
+              "type": "object",
+              "description": "the closed loop narrative, sense to make to measure",
+              "required": ["sense", "make", "measure"],
+              "additionalProperties": false,
+              "properties": {
+                "sense": { "type": "string" },
+                "make": { "type": "string" },
+                "measure": { "type": "string" }
+              }
+            },
+            "source": { "type": "string", "enum": ["claude", "authored"], "description": "claude if the prompt was authored by the live Claude pass, authored if composed deterministically" }
+          }
+        }
+      }
+    }
+  }
+}

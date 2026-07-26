@@ -1,0 +1,738 @@
+{
+  "generated_at": "2026-05-01T13:00:00Z",
+  "claude_available": false,
+  "videos": [
+    {
+      "id": "lx_001",
+      "brand": "lexus",
+      "performance_tier": "top",
+      "who": "owner",
+      "url": "https://www.tiktok.com/@lexusowner_kyle/video/lx001",
+      "thumb": "data/raw/thumbs/lx_001.jpg",
+      "metrics": {
+        "views": 2800000,
+        "likes": 260000,
+        "comments": 35000,
+        "shares": 24200,
+        "engagement_rate": 11.4
+      },
+      "hook_type": "macro craft open",
+      "craft": {
+        "hook": "Extreme closeup on the spindle grille catching early morning light, holding for three full seconds.",
+        "structure": "Macro detail build over twelve seconds, pulling back only at the end to reveal the full car.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Ambient cabin sound only, no voiceover",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "The craft closeup is a curiosity gap that rewards patience.",
+          "Ambient sound does the selling without a word.",
+          "The withhold creates anticipation the wide shot destroys."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Quiet luxury aesthetic on TikTok rewards restraint and maker detail over spectacle.",
+        "brand_replication_path": "Lead every Lexus post with the takumi craft closeup before revealing the full car.",
+        "risk": "Requires discipline to resist the wide beauty shot reflex."
+      },
+      "brand_fit": {
+        "score": 0.92,
+        "rationale": "Macro craft as the hook is core Lexus brand truth and the format the feed rewards most."
+      },
+      "brief_seed": {
+        "concept": "A standing format of macro craft opens that treats every made detail as the hero, scoring quietly, revealing the full car only at the end.",
+        "hook_formula": "Open on the made detail in extreme closeup, hold it, let the sound carry, reveal the whole only at the end."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "lx_002",
+      "brand": "lexus",
+      "performance_tier": "top",
+      "who": "creator",
+      "url": "https://www.tiktok.com/@contentcreator_mia/video/lx002",
+      "thumb": "data/raw/thumbs/lx_002.jpg",
+      "metrics": {
+        "views": 980000,
+        "likes": 62000,
+        "comments": 11000,
+        "shares": 8340,
+        "engagement_rate": 8.3
+      },
+      "hook_type": "silent build",
+      "craft": {
+        "hook": "Text on a dark frame reads a quiet promise, then a closeup of the spindle grille catching light.",
+        "structure": "Three craft details, each with one line of text, building to the badge.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Quiet trending instrumental, no voiceover",
+        "text_overlay": "One short quiet line per detail, late",
+        "why": [
+          "Text carries meaning while the visuals carry feeling.",
+          "The grille detail is unmistakably Lexus.",
+          "Quiet confidence matches the brand register."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Text-driven silent builds perform well with audiences who watch without sound.",
+        "brand_replication_path": "Adopt the silent build format with one quiet line per detail, no voiceover.",
+        "risk": "Requires copywriting discipline. Every line must name a feeling, not a spec."
+      },
+      "brand_fit": {
+        "score": 0.75,
+        "rationale": "Silent text build is compatible with the Lexus register when the copy names emotion rather than spec."
+      },
+      "brief_seed": {
+        "concept": "A silent build format where text carries the story and craft details carry the feeling, no voiceover required.",
+        "hook_formula": "One short line on a dark frame, then the made detail, then the badge."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "lx_003",
+      "brand": "lexus",
+      "performance_tier": "top",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@lexususa/video/lx003",
+      "thumb": "data/raw/thumbs/lx_003.jpg",
+      "metrics": {
+        "views": 1200000,
+        "likes": 65000,
+        "comments": 11000,
+        "shares": 9200,
+        "engagement_rate": 7.1
+      },
+      "hook_type": "macro craft open",
+      "craft": {
+        "hook": "Closeup on diamond quilted leather, stitching visible in the first second.",
+        "structure": "Macro interior details build to a slow reveal of the full cabin.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Ambient cabin sound only, no voiceover",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "The craft closeup earns the price without stating it.",
+          "Interior detail rewards aspirational viewers.",
+          "Restraint reads as premium."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "ASMR and craft detail formats earn high completion rates on TikTok.",
+        "brand_replication_path": "Use interior craft details as the primary hook in brand posts.",
+        "risk": "Brand footage risks feeling too polished. Add some handheld texture."
+      },
+      "brand_fit": {
+        "score": 0.88,
+        "rationale": "Interior craft detail is a core Lexus strength and the execution here is restrained and premium."
+      },
+      "brief_seed": {
+        "concept": "Brand posts leading with interior craft details and ambient sound, no voiceover, one quiet line.",
+        "hook_formula": "Open on the interior craft detail, ambient sound, reveal the full cabin late."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "lx_004",
+      "brand": "lexus",
+      "performance_tier": "top",
+      "who": "owner",
+      "url": "https://www.tiktok.com/@lexusowner_james/video/lx004",
+      "thumb": "data/raw/thumbs/lx_004.jpg",
+      "metrics": {
+        "views": 1900000,
+        "likes": 152000,
+        "comments": 22000,
+        "shares": 12200,
+        "engagement_rate": 9.8
+      },
+      "hook_type": "owner point of view",
+      "craft": {
+        "hook": "Owner films the dash at dawn, ambient light strip breathing slowly, city moving outside.",
+        "structure": "Static morning cabin, one slow pan, nothing staged.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Ambient cabin and road sound only, no voiceover",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "Calm and intimate, the opposite of a commercial.",
+          "Owner footage reads as honest.",
+          "Mood over message holds attention."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Owned lifestyle content outperforms brand studio output because authenticity is the signal.",
+        "brand_replication_path": "Amplify owner footage with consent and light brand finishing as a standing content lane.",
+        "risk": "Requires an owner content program. Cannot be faked at brand level."
+      },
+      "brand_fit": {
+        "score": 0.9,
+        "rationale": "Owner point of view is the deepest Lexus brand truth and the format the feed rewards most."
+      },
+      "brief_seed": {
+        "concept": "Amplified owner films as a standing format, lightly finished by the brand, treating loyal owners as the heroes.",
+        "hook_formula": "Open from the driver seat, real cabin, ambient sound, let the owner story lead."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "lx_005",
+      "brand": "lexus",
+      "performance_tier": "bottom",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@lexususa/video/lx005",
+      "thumb": "data/raw/thumbs/lx_005.jpg",
+      "metrics": {
+        "views": 180000,
+        "likes": 2400,
+        "comments": 550,
+        "shares": 290,
+        "engagement_rate": 1.8
+      },
+      "hook_type": "wide beauty shot",
+      "craft": {
+        "hook": "Wide tracking shot of the full car on a studio background, logo visible at the start.",
+        "structure": "Exterior beauty shots cut at a steady pace, ending on the badge.",
+        "pacing": "Fast montage with a cut every second",
+        "audio": "Announcer voiceover over stock music",
+        "text_overlay": "Spec numbers and feature callouts stacked on screen",
+        "why": []
+      },
+      "strategy": {
+        "cultural_trend": "Traditional beauty shots no longer hold attention in a scroll feed.",
+        "brand_replication_path": "Replace the wide beauty shot open with a craft closeup.",
+        "risk": "Low. The format already loses."
+      },
+      "brand_fit": {
+        "score": 0.28,
+        "rationale": "Wide beauty shot with logo first is the format the data shows loses, and it fights the craft first principle."
+      },
+      "brief_seed": {
+        "concept": "",
+        "hook_formula": ""
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "lx_006",
+      "brand": "lexus",
+      "performance_tier": "bottom",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@lexususa/video/lx006",
+      "thumb": "data/raw/thumbs/lx_006.jpg",
+      "metrics": {
+        "views": 95000,
+        "likes": 850,
+        "comments": 190,
+        "shares": 100,
+        "engagement_rate": 1.2
+      },
+      "hook_type": "announcer intro",
+      "craft": {
+        "hook": "Announcer voiceover begins immediately over a wide product shot.",
+        "structure": "Feature montage with callouts, ending on a dealer CTA.",
+        "pacing": "Fast montage with a cut every second",
+        "audio": "Announcer voiceover over stock music",
+        "text_overlay": "Spec numbers and feature callouts stacked on screen",
+        "why": []
+      },
+      "strategy": {
+        "cultural_trend": "Hard sell formats are penalised by the algorithm and skipped by the audience.",
+        "brand_replication_path": "Retire the announcer voiceover entirely from social content.",
+        "risk": "Low. The format already loses."
+      },
+      "brand_fit": {
+        "score": 0.15,
+        "rationale": "Announcer voiceover destroys the luxury register and is the clearest off-brand signal in this data."
+      },
+      "brief_seed": {
+        "concept": "",
+        "hook_formula": ""
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "gn_001",
+      "brand": "genesis",
+      "performance_tier": "top",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@genesis/video/gn001",
+      "thumb": "data/raw/thumbs/gn_001.jpg",
+      "metrics": {
+        "views": 1610000,
+        "likes": 125000,
+        "comments": 18000,
+        "shares": 13170,
+        "engagement_rate": 9.7
+      },
+      "hook_type": "macro craft open",
+      "craft": {
+        "hook": "Extreme closeup on diamond quilted leather, a needle finishing the last stitch.",
+        "structure": "Macro details build to a slow pull back that reveals the full seat at the end.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Trending ASMR style audio, the thread and leather are the sound",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "The craft closeup is a curiosity gap.",
+          "ASMR texture is highly shareable.",
+          "It earns the price without stating it."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "ASMR craft content earns unusually high completion rates in the luxury category.",
+        "brand_replication_path": "Adopt craft ASMR as a standing format for interior detail content.",
+        "risk": "Genesis executes this very well. Lexus needs to move faster to own the craft lane."
+      },
+      "brand_fit": {
+        "score": 0.89,
+        "rationale": "Macro craft is a core brand truth for any luxury marque and Genesis executes it with genuine restraint."
+      },
+      "brief_seed": {
+        "concept": "Macro craft series using ASMR sound design and extreme interior closeups as the primary hook.",
+        "hook_formula": "Open on the made detail with its natural sound, hold it, reveal the full object late."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "gn_002",
+      "brand": "genesis",
+      "performance_tier": "top",
+      "who": "owner",
+      "url": "https://www.tiktok.com/@genesisowner_sara/video/gn002",
+      "thumb": "data/raw/thumbs/gn_002.jpg",
+      "metrics": {
+        "views": 1240000,
+        "likes": 100000,
+        "comments": 16000,
+        "shares": 9240,
+        "engagement_rate": 10.1
+      },
+      "hook_type": "owner point of view",
+      "craft": {
+        "hook": "An owner films the cabin at night, ambient light strip breathing slowly.",
+        "structure": "Static night cabin, city moving outside, one slow pan.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Rain and a low ambient pad, no voiceover",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "Calm and intimate, the opposite of a commercial.",
+          "Owner footage reads as honest.",
+          "Mood over message holds attention."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Nighttime cabin footage performs well with audiences seeking calm and aspirational content.",
+        "brand_replication_path": "Amplify nighttime owner cabin footage as a standing content format.",
+        "risk": "Requires authentic owner partnership, not staged recreations."
+      },
+      "brand_fit": {
+        "score": 0.88,
+        "rationale": "Owner point of view with ambient sound is a high-fit format for any luxury brand prioritising authenticity."
+      },
+      "brief_seed": {
+        "concept": "Owner nighttime cabin films as a standing aspirational format, ambient sound, one quiet line.",
+        "hook_formula": "Open from the owner seat at night, ambient light and sound, let the mood lead."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "gn_003",
+      "brand": "genesis",
+      "performance_tier": "top",
+      "who": "creator",
+      "url": "https://www.tiktok.com/@creator_alex/video/gn003",
+      "thumb": "data/raw/thumbs/gn_003.jpg",
+      "metrics": {
+        "views": 800000,
+        "likes": 47000,
+        "comments": 8000,
+        "shares": 5000,
+        "engagement_rate": 7.5
+      },
+      "hook_type": "clean reveal",
+      "craft": {
+        "hook": "A creator walks up in silence, the door handle presents itself, one clean motion.",
+        "structure": "Single reveal held long, then two quick cabin details, then black.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Trending audio with a beat drop synced to the reveal motion",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "The synced beat drop is satisfying and loops well.",
+          "A creator face builds trust faster than a logo.",
+          "Restraint makes the one motion feel premium."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Single clean reveal formats perform well when the reveal is genuinely satisfying.",
+        "brand_replication_path": "Use the clean reveal structure for new model introductions.",
+        "risk": "The beat drop timing requires precision. A missed sync destroys the effect."
+      },
+      "brand_fit": {
+        "score": 0.72,
+        "rationale": "Clean reveal with calm trending audio is compatible with the luxury register when executed with restraint."
+      },
+      "brief_seed": {
+        "concept": "Single clean reveal format for key design moments, synced audio, creator trust.",
+        "hook_formula": "Silence then one clean motion, hold it, let the audio land at the moment of reveal."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "gn_004",
+      "brand": "genesis",
+      "performance_tier": "top",
+      "who": "creator",
+      "url": "https://www.tiktok.com/@creator_kim/video/gn004",
+      "thumb": "data/raw/thumbs/gn_004.jpg",
+      "metrics": {
+        "views": 720000,
+        "likes": 38000,
+        "comments": 6500,
+        "shares": 4460,
+        "engagement_rate": 6.8
+      },
+      "hook_type": "trending audio hook",
+      "craft": {
+        "hook": "Hard trending audio from the first frame, quick exterior shot panning to the grille.",
+        "structure": "Fast energy build using trending audio, ending on a held badge shot.",
+        "pacing": "Fast opening then one held final shot",
+        "audio": "Hard trending audio from the first frame",
+        "text_overlay": "One short line at the end",
+        "why": [
+          "Trending audio drives discovery through the For You algorithm.",
+          "The contrast between the energetic open and the held badge close creates a satisfying arc.",
+          "Creator presence adds credibility."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Trending audio significantly boosts For You page reach when used authentically.",
+        "brand_replication_path": "Use trending audio selectively for discovery plays, not as a default format.",
+        "risk": "Loud beat drops can fight the luxury register. Requires careful audio selection."
+      },
+      "brand_fit": {
+        "score": 0.5,
+        "rationale": "Trending audio works for reach but the loud beat drop format sits at the edge of the Lexus register and should be used selectively."
+      },
+      "brief_seed": {
+        "concept": "Selective trending audio use for discovery plays, always ending on a held, quiet craft moment.",
+        "hook_formula": "Trending audio open, fast build, then one held craft moment to close."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "gn_005",
+      "brand": "genesis",
+      "performance_tier": "bottom",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@genesis/video/gn005",
+      "thumb": "data/raw/thumbs/gn_005.jpg",
+      "metrics": {
+        "views": 210000,
+        "likes": 3200,
+        "comments": 750,
+        "shares": 460,
+        "engagement_rate": 2.1
+      },
+      "hook_type": "wide beauty shot",
+      "craft": {
+        "hook": "Wide studio shot of the full GV80, rotating slowly, logo visible at the start.",
+        "structure": "Exterior beauty montage with spec callouts stacked on screen.",
+        "pacing": "Fast montage with a cut every second",
+        "audio": "Announcer voiceover over stock music",
+        "text_overlay": "Spec numbers and feature callouts stacked on screen",
+        "why": []
+      },
+      "strategy": {
+        "cultural_trend": "Spec-led content is systematically underperforming the craft and emotion formats.",
+        "brand_replication_path": "Retire spec overlays from social content.",
+        "risk": "Low. The format already loses."
+      },
+      "brand_fit": {
+        "score": 0.3,
+        "rationale": "Wide beauty shot with spec numbers fights both the algorithm and the luxury register."
+      },
+      "brief_seed": {
+        "concept": "",
+        "hook_formula": ""
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "gn_006",
+      "brand": "genesis",
+      "performance_tier": "bottom",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@genesis/video/gn006",
+      "thumb": "data/raw/thumbs/gn_006.jpg",
+      "metrics": {
+        "views": 120000,
+        "likes": 1300,
+        "comments": 350,
+        "shares": 150,
+        "engagement_rate": 1.5
+      },
+      "hook_type": "announcer intro",
+      "craft": {
+        "hook": "Announcer voiceover begins immediately over a wide product shot.",
+        "structure": "Features and performance stats montage with an announcer delivering the CTA.",
+        "pacing": "Fast montage with a cut every second",
+        "audio": "Announcer voiceover over stock music",
+        "text_overlay": "Spec numbers and feature callouts stacked on screen",
+        "why": []
+      },
+      "strategy": {
+        "cultural_trend": "Announcer voiceover is the single clearest signal that a post is an ad, and it gets skipped.",
+        "brand_replication_path": "Remove the announcer voiceover entirely from all social formats.",
+        "risk": "Low. The format already loses."
+      },
+      "brand_fit": {
+        "score": 0.18,
+        "rationale": "Announcer voiceover with spec overlay is the most off-brand combination in the luxury category."
+      },
+      "brief_seed": {
+        "concept": "",
+        "hook_formula": ""
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "bm_001",
+      "brand": "bmw",
+      "performance_tier": "top",
+      "who": "creator",
+      "url": "https://www.tiktok.com/@creator_jay/video/bm001",
+      "thumb": "data/raw/thumbs/bm_001.jpg",
+      "metrics": {
+        "views": 3950000,
+        "likes": 220000,
+        "comments": 32000,
+        "shares": 20550,
+        "engagement_rate": 6.9
+      },
+      "hook_type": "clean reveal",
+      "craft": {
+        "hook": "A creator walks up in silence, the door handle presents itself, one clean motion.",
+        "structure": "Single reveal held long, then two quick cabin details, then black.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Hard trending audio with a beat drop synced to the door motion",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "The synced beat drop is satisfying and loops well.",
+          "A creator face builds trust faster than a logo.",
+          "Restraint makes the one motion feel premium."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Creator-led reveals outperform brand studio reveals because the viewer follows a person, not a logo.",
+        "brand_replication_path": "Partner with creators who respect the craft and let them lead the reveal.",
+        "risk": "Creator must genuinely respect the product. A stunt read cheapens the badge."
+      },
+      "brand_fit": {
+        "score": 0.7,
+        "rationale": "Creator clean reveal with a beat drop is compatible with the luxury register when the creator genuinely respects the craft."
+      },
+      "brief_seed": {
+        "concept": "Creator partnership series built around the single clean reveal moment, beat drop synced.",
+        "hook_formula": "Creator walks up in silence, one held reveal, beat drop lands at the moment of motion."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "bm_002",
+      "brand": "bmw",
+      "performance_tier": "top",
+      "who": "owner",
+      "url": "https://www.tiktok.com/@bmwowner_tom/video/bm002",
+      "thumb": "data/raw/thumbs/bm_002.jpg",
+      "metrics": {
+        "views": 2100000,
+        "likes": 145000,
+        "comments": 21000,
+        "shares": 12500,
+        "engagement_rate": 8.5
+      },
+      "hook_type": "owner point of view",
+      "craft": {
+        "hook": "Owner films the cabin on a morning drive, ambient light and road sound, no staging.",
+        "structure": "Continuous morning drive from the owner perspective, no edits for the first six seconds.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Ambient cabin and road sound only, no voiceover",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "It feels owned, not advertised.",
+          "The held shot signals confidence and lets the craft speak.",
+          "Sound design does the selling without a word."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Long-term owner loyalty content outperforms aspirational brand content because the audience wants proof.",
+        "brand_replication_path": "Build a co-creation program with loyal owners for a standing morning drive content lane.",
+        "risk": "Cannot be faked. Staged owner footage reads immediately as brand and loses the credibility signal."
+      },
+      "brand_fit": {
+        "score": 0.88,
+        "rationale": "Owner point of view with ambient cabin sound is a high-fit format for premium marques prioritising loyalty."
+      },
+      "brief_seed": {
+        "concept": "Owner morning drive films as a standing co-created format, ambient sound, no staging.",
+        "hook_formula": "Owner seat perspective, ambient sound, one quiet line, let the drive speak."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "bm_003",
+      "brand": "bmw",
+      "performance_tier": "top",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@bmw/video/bm003",
+      "thumb": "data/raw/thumbs/bm_003.jpg",
+      "metrics": {
+        "views": 1100000,
+        "likes": 62000,
+        "comments": 10000,
+        "shares": 7200,
+        "engagement_rate": 7.2
+      },
+      "hook_type": "macro craft open",
+      "craft": {
+        "hook": "Extreme closeup on the kidney grille, light catching each vane individually.",
+        "structure": "Exterior craft detail sequence building from grille to badge.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Ambient exterior sound, light wind, no voiceover",
+        "text_overlay": "One short quiet line late in the video",
+        "why": [
+          "The craft closeup rewards viewers who know the badge.",
+          "Ambient exterior sound is rare and premium.",
+          "The grille is the strongest BMW signature and it leads."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Signature design elements perform best when they lead the content rather than appear at the end.",
+        "brand_replication_path": "Lead with the brand signature element in the first second before any wide shot.",
+        "risk": "Brand footage risks feeling over-lit and over-polished. The craft closeup mitigates this."
+      },
+      "brand_fit": {
+        "score": 0.87,
+        "rationale": "Macro craft open is a high-fit format for BMW and this execution uses the signature grille effectively."
+      },
+      "brief_seed": {
+        "concept": "Macro craft opens using BMW signature elements as the hook, ambient sound, no voiceover.",
+        "hook_formula": "Open on the signature design element in extreme closeup, ambient sound, reveal the full car late."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "bm_004",
+      "brand": "bmw",
+      "performance_tier": "top",
+      "who": "creator",
+      "url": "https://www.tiktok.com/@creator_lee/video/bm004",
+      "thumb": "data/raw/thumbs/bm_004.jpg",
+      "metrics": {
+        "views": 890000,
+        "likes": 55000,
+        "comments": 9200,
+        "shares": 5220,
+        "engagement_rate": 7.8
+      },
+      "hook_type": "silent build",
+      "craft": {
+        "hook": "Black frame, one line of text naming a feeling, then a soft closeup of the interior.",
+        "structure": "Three interior details, each with one quiet text line, building to the badge.",
+        "pacing": "One long held opening shot before the first edit",
+        "audio": "Quiet trending instrumental, no voiceover",
+        "text_overlay": "One short quiet line per detail, late",
+        "why": [
+          "The text names a feeling the visual carries.",
+          "No voiceover means the viewer imagines their own voice.",
+          "The interior detail sequence rewards close watching."
+        ]
+      },
+      "strategy": {
+        "cultural_trend": "Silent interior content outperforms exterior content as audiences seek intimacy.",
+        "brand_replication_path": "Build a silent interior series with one quiet text line per detail.",
+        "risk": "Copy must be exactly right. One spec line breaks the mood entirely."
+      },
+      "brand_fit": {
+        "score": 0.72,
+        "rationale": "Silent text build is compatible with the premium register when the copy names emotion and the pacing stays restrained."
+      },
+      "brief_seed": {
+        "concept": "Silent interior build series, one quiet line per detail, no voiceover, trending instrumental bed.",
+        "hook_formula": "One quiet line on a dark frame, then the interior detail, then the badge."
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "bm_005",
+      "brand": "bmw",
+      "performance_tier": "bottom",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@bmw/video/bm005",
+      "thumb": "data/raw/thumbs/bm_005.jpg",
+      "metrics": {
+        "views": 250000,
+        "likes": 4200,
+        "comments": 1000,
+        "shares": 550,
+        "engagement_rate": 2.3
+      },
+      "hook_type": "wide beauty shot",
+      "craft": {
+        "hook": "Wide tracking exterior shot of the M4, logo visible at the start.",
+        "structure": "Performance montage with spec overlays and announcer CTA.",
+        "pacing": "Fast montage with a cut every second",
+        "audio": "Announcer voiceover over stock music",
+        "text_overlay": "Spec numbers and feature callouts stacked on screen",
+        "why": []
+      },
+      "strategy": {
+        "cultural_trend": "Performance spec content is losing to craft and emotion formats across the luxury category.",
+        "brand_replication_path": "Replace spec overlays with one emotional line.",
+        "risk": "Low. The format already loses."
+      },
+      "brand_fit": {
+        "score": 0.25,
+        "rationale": "Wide beauty shot leading with a logo and stacked spec numbers is the clearest pattern the data shows loses."
+      },
+      "brief_seed": {
+        "concept": "",
+        "hook_formula": ""
+      },
+      "source": "gemini+authored"
+    },
+    {
+      "id": "bm_006",
+      "brand": "bmw",
+      "performance_tier": "bottom",
+      "who": "brand",
+      "url": "https://www.tiktok.com/@bmw/video/bm006",
+      "thumb": "data/raw/thumbs/bm_006.jpg",
+      "metrics": {
+        "views": 150000,
+        "likes": 2100,
+        "comments": 550,
+        "shares": 200,
+        "engagement_rate": 1.9
+      },
+      "hook_type": "announcer intro",
+      "craft": {
+        "hook": "Announcer begins immediately over a wide exterior shot.",
+        "structure": "Performance and feature montage with announcer voiceover and spec overlays.",
+        "pacing": "Fast montage with a cut every second",
+        "audio": "Announcer voiceover over stock music",
+        "text_overlay": "Spec numbers and feature callouts stacked on screen",
+        "why": []
+      },
+      "strategy": {
+        "cultural_trend": "Announcer formats are systematically penalised in the luxury feed.",
+        "brand_replication_path": "Retire the announcer voiceover and spec overlay combination entirely.",
+        "risk": "Low. The format already loses."
+      },
+      "brand_fit": {
+        "score": 0.14,
+        "rationale": "Announcer voiceover with spec overlay is the most off-brand and lowest performing combination in the set."
+      },
+      "brief_seed": {
+        "concept": "",
+        "hook_formula": ""
+      },
+      "source": "gemini+authored"
+    }
+  ]
+}

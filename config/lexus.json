@@ -1,0 +1,27 @@
+{
+  "subject": {
+    "key": "lexus",
+    "name": "Lexus",
+    "handle": "@lexususa",
+    "hashtag": "lexus"
+  },
+  "competitors": [
+    {
+      "key": "genesis",
+      "name": "Genesis",
+      "handle": "@genesis_usa",
+      "hashtag": "genesismotors"
+    },
+    {
+      "key": "bmw",
+      "name": "BMW",
+      "handle": "@bmw",
+      "hashtag": "bmw"
+    }
+  ],
+  "brief": "config/lexus-brief.md",
+  "generation": {
+    "pipeline_line": "ComfyUI: Juggernaut XL plus a brand LoRA, then AnimateDiff for motion, then a Premiere finish.",
+    "grade": "Warm near black, ivory highlights, restrained saturation. Calm and confident."
+  }
+}

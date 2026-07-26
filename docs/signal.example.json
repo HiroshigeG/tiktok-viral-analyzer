@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "generated_at": "2026-05-29T18:00:00Z",
+    "brands": ["lexus", "genesis", "bmw"],
+    "n_videos": 90,
+    "claude_available": false,
+    "method_note": "Public metrics are scraped and real. Craft and strategy are dual model inference (Gemini vision plus Claude), labeled as such. No causation is claimed beyond the winners versus losers baseline delta. This is example data for frontend development and will be replaced by the real pipeline output."
+  },
+
+  "segnale": {
+    "winning_patterns": [
+      {
+        "pattern": "Macro craft open. The first second is a tight closeup on a made object: stitching, a grille vane, a turned dial.",
+        "frequency": "11/30",
+        "avg_engagement": 7.8,
+        "evidence_video_ids": ["lx_7421", "gn_5530", "bm_9911"]
+      },
+      {
+        "pattern": "Owner point of view. Shot from the seat, no narration, ambient cabin sound only.",
+        "frequency": "9/30",
+        "avg_engagement": 9.2,
+        "evidence_video_ids": ["lx_7188", "gn_5501"]
+      },
+      {
+        "pattern": "Silent build. No voiceover, text on screen carries the story, trending audio underneath.",
+        "frequency": "14/30",
+        "avg_engagement": 6.4,
+        "evidence_video_ids": ["bm_9820", "lx_7421", "gn_5577"]
+      },
+      {
+        "pattern": "One clean reveal. A single hero motion at the three second mark instead of rapid cutting.",
+        "frequency": "8/30",
+        "avg_engagement": 8.1,
+        "evidence_video_ids": ["lx_7188", "bm_9911"]
+      }
+    ],
+    "baseline_delta": [
+      {
+        "dimension": "hook_type",
+        "winners": "Curiosity or craft closeup in the first second",
+        "losers": "Wide product beauty shot, logo first",
+        "delta_note": "Winners withhold the full car. Losers show everything at once and give the viewer no reason to stay."
+      },
+      {
+        "dimension": "pacing",
+        "winners": "One held shot, three to five seconds before the first cut",
+        "losers": "Fast montage, a cut every second",
+        "delta_note": "Held shots read as confidence and craft. Frantic cutting reads as a commercial and gets skipped."
+      },
+      {
+        "dimension": "audio",
+        "winners": "Ambient sound or low trending bed, no hard sell voiceover",
+        "losers": "Announcer voiceover over stock music",
+        "delta_note": "The category rewards restraint. The luxury feeling collapses the moment a salesperson voice arrives."
+      },
+      {
+        "dimension": "who",
+        "winners": "Owner and creator footage, handheld, real cabins",
+        "losers": "Brand studio footage only",
+        "delta_note": "Owner and creator clips out engage brand studio output by a wide margin. This is the blind spot."
+      },
+      {
+        "dimension": "text_overlay",
+        "winners": "One short line, set quietly, late",
+        "losers": "Spec sheet on screen, numbers stacked",
+        "delta_note": "Emotion over spec. The winning text names a feeling. The losing text lists horsepower."
+      }
+    ],
+    "top_videos": [
+      {
+        "id": "lx_7188",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@lexususa/video/7188",
+        "thumb": "assets/thumbs/lx_7188.jpg",
+        "views": 2840000,
+        "engagement": 11.4,
+        "who": "owner",
+        "hook_type": "Owner point of view",
+        "craft": {
+          "hook": "First second is the driver door closing from inside, a soft heavy thunk, then the start button glows.",
+          "structure": "One continuous morning drive, sunrise through the windshield, no edits for the first six seconds.",
+          "audio": "Ambient cabin and a quiet lofi bed, no voiceover.",
+          "why": [
+            "It feels owned, not advertised.",
+            "The held shot signals confidence and lets the craft speak.",
+            "The sound design does the selling without a word."
+          ]
+        }
+      },
+      {
+        "id": "gn_5530",
+        "brand": "genesis",
+        "url": "https://www.tiktok.com/@genesis/video/5530",
+        "thumb": "assets/thumbs/gn_5530.jpg",
+        "views": 1610000,
+        "engagement": 9.7,
+        "who": "brand",
+        "hook_type": "Macro craft open",
+        "craft": {
+          "hook": "Extreme closeup on diamond quilted leather, a needle finishing the last stitch.",
+          "structure": "Macro details build to a slow pull back that reveals the full seat at the end.",
+          "audio": "Trending ASMR style audio, the thread and leather are the sound.",
+          "why": [
+            "The craft closeup is a curiosity gap, the viewer waits for the reveal.",
+            "ASMR texture is highly shareable.",
+            "It earns the price without stating it."
+          ]
+        }
+      },
+      {
+        "id": "bm_9911",
+        "brand": "bmw",
+        "url": "https://www.tiktok.com/@bmw/video/9911",
+        "thumb": "assets/thumbs/bm_9911.jpg",
+        "views": 3950000,
+        "engagement": 6.9,
+        "who": "creator",
+        "hook_type": "One clean reveal",
+        "craft": {
+          "hook": "A creator walks up in silence, the door handle presents itself, one clean motion.",
+          "structure": "Single reveal held long, then two quick cabin details, then black.",
+          "audio": "Hard trending audio with a beat drop synced to the door motion.",
+          "why": [
+            "The synced beat drop is satisfying and loops well.",
+            "A creator face builds trust faster than a logo.",
+            "Restraint makes the one motion feel premium."
+          ]
+        }
+      },
+      {
+        "id": "lx_7421",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@lexususa/video/7421",
+        "thumb": "assets/thumbs/lx_7421.jpg",
+        "views": 980000,
+        "engagement": 8.3,
+        "who": "creator",
+        "hook_type": "Silent build",
+        "craft": {
+          "hook": "Text on a black frame reads a quiet promise, then a closeup of the spindle grille catching light.",
+          "structure": "Three craft details, each with one line of text, building to the badge.",
+          "audio": "Soft trending instrumental, no voice.",
+          "why": [
+            "Text carries meaning while the visuals carry feeling.",
+            "The grille detail is unmistakably Lexus.",
+            "Quiet confidence matches the brand register."
+          ]
+        }
+      },
+      {
+        "id": "gn_5501",
+        "brand": "genesis",
+        "url": "https://www.tiktok.com/@genesis/video/5501",
+        "thumb": "assets/thumbs/gn_5501.jpg",
+        "views": 1240000,
+        "engagement": 10.1,
+        "who": "owner",
+        "hook_type": "Owner point of view",
+        "craft": {
+          "hook": "An owner films the dash at night, ambient light strip breathing slowly.",
+          "structure": "Static night cabin, the city moving softly outside, one slow pan.",
+          "audio": "Rain and a low pad, fully ambient.",
+          "why": [
+            "Calm and intimate, the opposite of a commercial.",
+            "Owner footage reads as honest.",
+            "Mood over message holds attention."
+          ]
+        }
+      }
+    ]
+  },
+
+  "insight": {
+    "owners_vs_brand": {
+      "owner_share_pct": 63,
+      "brand_share_pct": 37,
+      "evidence": [
+        "Owner and creator videos drove 63 percent of total engagement in the set while making up a minority of brand posted content.",
+        { "label": "Top 5 by engagement", "value": "4 of 5 are owner or creator footage" },
+        { "label": "Brand studio average engagement", "value": "4.1 percent" },
+        { "label": "Owner footage average engagement", "value": "9.6 percent" }
+      ]
+    },
+    "brand_gap": [
+      {
+        "category_winning_trait": "Macro craft as the hook, the made object in extreme closeup",
+        "brand_today": "Lexus US leads most posts with a wide moving beauty shot of the full car.",
+        "gap_note": "The takumi craft story is the strongest asset Lexus owns and it is the one the feed rewards, yet it is buried after the wide shot.",
+        "brand_fit_score": 0.95
+      },
+      {
+        "category_winning_trait": "Owner point of view, real cabins, no narration",
+        "brand_today": "Owner content exists in the wild but Lexus US rarely amplifies it.",
+        "gap_note": "The loyalty moat is visible on the platform and unused. This is the clearest open lane.",
+        "brand_fit_score": 0.9
+      },
+      {
+        "category_winning_trait": "Hard trending audio with a synced beat drop",
+        "brand_today": "Lexus US favors bespoke scored beds.",
+        "gap_note": "Some trending audio fits, but the loud beat drop format sits slightly outside the calm Lexus register. Use selectively.",
+        "brand_fit_score": 0.55
+      },
+      {
+        "category_winning_trait": "Spec numbers stacked on screen",
+        "brand_today": "Occasional feature callouts.",
+        "gap_note": "This loses in the data and it fights the emotion over spec principle. Avoid.",
+        "brand_fit_score": 0.2
+      }
+    ],
+    "audience_voice": [
+      {
+        "cluster": "Sound design and quiet luxury",
+        "sentiment": "pos",
+        "volume": 412,
+        "sample_comments": [
+          "the door sound alone sold me",
+          "this is what quiet luxury actually means",
+          "no annoying voiceover, finally"
+        ]
+      },
+      {
+        "cluster": "Craft and takumi detail",
+        "sentiment": "pos",
+        "volume": 308,
+        "sample_comments": [
+          "the stitching is insane",
+          "you can feel the hours in this",
+          "japanese craft hits different"
+        ]
+      },
+      {
+        "cluster": "Price and access",
+        "sentiment": "mixed",
+        "volume": 197,
+        "sample_comments": [
+          "beautiful but who can afford it",
+          "dream car fr",
+          "saving up, this is the one"
+        ]
+      },
+      {
+        "cluster": "Reliability and loyalty",
+        "sentiment": "pos",
+        "volume": 156,
+        "sample_comments": [
+          "on my third one, never going back",
+          "300k miles and still smooth",
+          "my dad had one, now i do"
+        ]
+      }
+    ]
+  },
+
+  "direzione": {
+    "brief": {
+      "title": "The Live Standard, owned",
+      "thesis": "The feed already rewards everything Lexus is best at, craft, calm, and owner loyalty, and it punishes the commercial reflex Lexus still leads with. The opportunity is to stop renting category tactics and start amplifying the brand truth the audience is already celebrating.",
+      "concept": "A standing format of macro craft opens and amplified owner point of view films, scored quietly, that treats the made object and the loyal owner as the heroes. The brand listens to the comment clusters each week and feeds the next round.",
+      "format": "Vertical, nine by sixteen. One held craft hook in the first second, ambient sound, one quiet line of text late, badge last. Owner footage amplified with light brand finishing.",
+      "hook_formula": "Open on the made detail in extreme closeup, hold it, let the sound carry, reveal the whole only at the end.",
+      "ties_to": ["The Live Standard", "Owner Films"]
+    },
+    "next_moves": [
+      "Amplify owner point of view footage as a standing content lane, with consent and light brand finishing.",
+      "Rebuild the post template so the macro craft hook leads and the wide beauty shot retires from the open.",
+      "Retire announcer voiceover from social, let ambient sound and one quiet line carry the message.",
+      "Stand up a weekly listen on the comment clusters, sound design and craft and loyalty, and brief against what the audience is already saying."
+    ]
+  }
+}

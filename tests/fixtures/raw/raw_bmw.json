@@ -1,0 +1,359 @@
+{
+  "brand": "bmw",
+  "profile": "@bmw",
+  "scraped_at": "2026-05-01T12:00:00Z",
+  "pool_size": 40,
+  "videos": [
+    {
+      "id": "bm_001",
+      "brand": "bmw",
+      "url": "https://www.tiktok.com/@creator_jay/video/bm001",
+      "thumb": "data/raw/thumbs/bm_001.jpg",
+      "local_video_path": "",
+      "text": "One motion. Then silence. #bmw",
+      "created_at": "2026-04-09T14:00:00Z",
+      "author": {
+        "name": "@creator_jay",
+        "verified": true,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 3950000,
+        "likes": 220000,
+        "comments": 32000,
+        "shares": 20550,
+        "engagement_rate": 6.9
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "the beat drop synced to the door motion was perfect",
+          "likes": 4800,
+          "author": "@user49"
+        },
+        {
+          "text": "creator face makes it feel real not an ad",
+          "likes": 4200,
+          "author": "@user50"
+        },
+        {
+          "text": "gorgeous car the lines are stunning",
+          "likes": 3600,
+          "author": "@user51"
+        },
+        {
+          "text": "the audio and the motion together is insane",
+          "likes": 3000,
+          "author": "@user52"
+        },
+        {
+          "text": "love this more than anything in the category",
+          "likes": 2500,
+          "author": "@user53"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_602",
+          "title": "trending drop pack v4",
+          "author": "@beatmaker",
+          "is_original": false
+        },
+        "hashtags": [
+          "bmw",
+          "luxury",
+          "carfyp",
+          "reveal"
+        ],
+        "duration_sec": 14
+      }
+    },
+    {
+      "id": "bm_002",
+      "brand": "bmw",
+      "url": "https://www.tiktok.com/@bmwowner_tom/video/bm002",
+      "thumb": "data/raw/thumbs/bm_002.jpg",
+      "local_video_path": "",
+      "text": "Just drove it for the third time today. #bmw #owner",
+      "created_at": "2026-04-13T08:00:00Z",
+      "author": {
+        "name": "@bmwowner_tom",
+        "verified": false,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 2100000,
+        "likes": 145000,
+        "comments": 21000,
+        "shares": 12500,
+        "engagement_rate": 8.5
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "owner footage is always so much more honest",
+          "likes": 3800,
+          "author": "@user54"
+        },
+        {
+          "text": "the ambient cabin sound in this is beautiful",
+          "likes": 3400,
+          "author": "@user55"
+        },
+        {
+          "text": "on my second bmw family tradition at this point",
+          "likes": 2900,
+          "author": "@user56"
+        },
+        {
+          "text": "200k miles and still feels new",
+          "likes": 2400,
+          "author": "@user57"
+        },
+        {
+          "text": "want this so bad saving up now",
+          "likes": 2000,
+          "author": "@user58"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_006",
+          "title": "original sound",
+          "author": "@bmwowner_tom",
+          "is_original": true
+        },
+        "hashtags": [
+          "bmw",
+          "luxury",
+          "carfyp",
+          "ownerlife"
+        ],
+        "duration_sec": 25
+      }
+    },
+    {
+      "id": "bm_003",
+      "brand": "bmw",
+      "url": "https://www.tiktok.com/@bmw/video/bm003",
+      "thumb": "data/raw/thumbs/bm_003.jpg",
+      "local_video_path": "",
+      "text": "The kidney grille up close. #bmw #craft",
+      "created_at": "2026-04-16T11:00:00Z",
+      "author": {
+        "name": "@bmw",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 1100000,
+        "likes": 62000,
+        "comments": 10000,
+        "shares": 7200,
+        "engagement_rate": 7.2
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "the detail on that grille is insane craftsmanship",
+          "likes": 2700,
+          "author": "@user59"
+        },
+        {
+          "text": "the texture and finish quality is stunning",
+          "likes": 2200,
+          "author": "@user60"
+        },
+        {
+          "text": "love the quiet sound design here",
+          "likes": 1900,
+          "author": "@user61"
+        },
+        {
+          "text": "gorgeous car want this now",
+          "likes": 1600,
+          "author": "@user62"
+        },
+        {
+          "text": "this beats genesis on exterior detail",
+          "likes": 1300,
+          "author": "@user63"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_312",
+          "title": "ambient exterior loop",
+          "author": "@naturalsounds",
+          "is_original": false
+        },
+        "hashtags": [
+          "bmw",
+          "carfyp",
+          "craft",
+          "luxury"
+        ],
+        "duration_sec": 19
+      }
+    },
+    {
+      "id": "bm_004",
+      "brand": "bmw",
+      "url": "https://www.tiktok.com/@creator_lee/video/bm004",
+      "thumb": "data/raw/thumbs/bm_004.jpg",
+      "local_video_path": "",
+      "text": "Let the car speak. #bmw #luxury",
+      "created_at": "2026-04-19T16:00:00Z",
+      "author": {
+        "name": "@creator_lee",
+        "verified": true,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 890000,
+        "likes": 55000,
+        "comments": 9200,
+        "shares": 5220,
+        "engagement_rate": 7.8
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "the silence and then the music is perfect audio pacing",
+          "likes": 2500,
+          "author": "@user64"
+        },
+        {
+          "text": "no voiceover and it hits harder for it",
+          "likes": 2200,
+          "author": "@user65"
+        },
+        {
+          "text": "beautiful detail work on this car",
+          "likes": 1900,
+          "author": "@user66"
+        },
+        {
+          "text": "want this car so badly",
+          "likes": 1600,
+          "author": "@user67"
+        },
+        {
+          "text": "creator content always more watchable than brand ads",
+          "likes": 1300,
+          "author": "@user68"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_203",
+          "title": "chill lofi type beat",
+          "author": "@lofiproducer",
+          "is_original": false
+        },
+        "hashtags": [
+          "bmw",
+          "luxury",
+          "carfyp",
+          "quietluxury"
+        ],
+        "duration_sec": 16
+      }
+    },
+    {
+      "id": "bm_005",
+      "brand": "bmw",
+      "url": "https://www.tiktok.com/@bmw/video/bm005",
+      "thumb": "data/raw/thumbs/bm_005.jpg",
+      "local_video_path": "",
+      "text": "0 to 60 in 4.2 seconds. The BMW M4. #bmw",
+      "created_at": "2026-04-21T10:00:00Z",
+      "author": {
+        "name": "@bmw",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 250000,
+        "likes": 4200,
+        "comments": 1000,
+        "shares": 550,
+        "engagement_rate": 2.3
+      },
+      "performance_tier": "bottom",
+      "comments": [
+        {
+          "text": "too many specs stacked on screen",
+          "likes": 200,
+          "author": "@user69"
+        },
+        {
+          "text": "the voiceover is the worst part",
+          "likes": 160,
+          "author": "@user70"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_407",
+          "title": "performance brand track",
+          "author": "@stockmusic",
+          "is_original": false
+        },
+        "hashtags": [
+          "bmw",
+          "m4",
+          "performance"
+        ],
+        "duration_sec": 30
+      }
+    },
+    {
+      "id": "bm_006",
+      "brand": "bmw",
+      "url": "https://www.tiktok.com/@bmw/video/bm006",
+      "thumb": "data/raw/thumbs/bm_006.jpg",
+      "local_video_path": "",
+      "text": "Luxury performance. Only BMW. #bmw #luxury",
+      "created_at": "2026-04-23T09:00:00Z",
+      "author": {
+        "name": "@bmw",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 150000,
+        "likes": 2100,
+        "comments": 550,
+        "shares": 200,
+        "engagement_rate": 1.9
+      },
+      "performance_tier": "bottom",
+      "comments": [
+        {
+          "text": "feels like every other car commercial",
+          "likes": 100,
+          "author": "@user71"
+        },
+        {
+          "text": "boring format compared to the owner content",
+          "likes": 75,
+          "author": "@user72"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_007",
+          "title": "original sound",
+          "author": "@bmw",
+          "is_original": true
+        },
+        "hashtags": [
+          "bmw",
+          "luxury"
+        ],
+        "duration_sec": 30
+      }
+    }
+  ]
+}

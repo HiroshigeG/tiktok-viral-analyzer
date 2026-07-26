@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "generated_at": "2026-07-26T14:37:45Z",
+    "brands": [
+      "bmw",
+      "genesis",
+      "lexus"
+    ],
+    "n_videos": 126,
+    "claude_available": true,
+    "subject": "Lexus",
+    "method_note": "Public metrics are scraped and real. Craft and strategy are dual model inference (Gemini vision plus Claude), labeled as such. No causation is claimed beyond the winners versus losers baseline delta."
+  },
+  "segnale": {
+    "winning_patterns": [
+      {
+        "pattern": "Category hashtag cluster. Top performers consistently use #fyp, #lexus, #bmw to surface in premium and lifestyle feeds, signaling that hashtag strategy is part of the discoverability stack even among the highest-engagement posts.",
+        "frequency": "34/63",
+        "avg_engagement": 15.14,
+        "evidence_video_ids": [
+          "7643710650190941471",
+          "7610282093700009247",
+          "7629390022822677793",
+          "7637556373001211150",
+          "7643237076036635918"
+        ]
+      },
+      {
+        "pattern": "Curiosity open. Top performers withhold the whole product and start on a detail you cannot place, a texture or a part, so the viewer stays for the reveal.",
+        "frequency": "53/63",
+        "avg_engagement": 12.94,
+        "evidence_video_ids": [
+          "7643954302851091726",
+          "7645247870458760461",
+          "7606253684850314510",
+          "7643710650190941471",
+          "7610282093700009247"
+        ]
+      },
+      {
+        "pattern": "Pattern interrupt. Top performers open on one unexpected visual that stops the scroll, then resolve it cleanly.",
+        "frequency": "4/63",
+        "avg_engagement": 11.39,
+        "evidence_video_ids": [
+          "7593451713344982327",
+          "7554758762804956446",
+          "7630500649259552013",
+          "7632448905765981454"
+        ]
+      },
+      {
+        "pattern": "Trending borrowed sound. 18 of 63 top performers use a non-original trending track rather than brand-produced audio. The For You algorithm rewards trending sound even in a premium segment, suggesting discoverability and craft can coexist when the audio bed stays restrained.",
+        "frequency": "18/63",
+        "avg_engagement": 10.15,
+        "evidence_video_ids": [
+          "7626955101097184526",
+          "7640172239555546401",
+          "7585062217985412383",
+          "7641442310160534797",
+          "7636430087520357653"
+        ]
+      },
+      {
+        "pattern": "Emotional open. Top performers lead with a feeling, a memory or a human moment rather than the product, and let it arrive inside the story.",
+        "frequency": "1/63",
+        "avg_engagement": 7.99,
+        "evidence_video_ids": [
+          "7641800902923291918"
+        ]
+      }
+    ],
+    "baseline_delta": [
+      {
+        "dimension": "who",
+        "winners": "owner",
+        "losers": "brand",
+        "delta_note": "Owner and creator footage consistently outperforms brand studio output by a wide margin. This is the blind spot: the most effective content type is the one brand posts least often."
+      },
+      {
+        "dimension": "audio",
+        "winners": "Original or ambient sound in 45 of 63 top performers (avg engagement 13.79 percent); trending borrowed sound in 18",
+        "losers": "Trending or stock audio in 13 of 63 bottom performers; announcer voiceover or original brand audio in 50",
+        "delta_note": "Original ambient sound leads by 3.6 engagement points over trending borrowed sound within the top tier. Trending audio drives volume (18 of 63 videos) while original ambient recordings from owner and creator content achieve the highest individual scores. The lesson: trending audio earns reach, ambient authenticity earns depth."
+      },
+      {
+        "dimension": "pacing",
+        "winners": "Slow and cinematic, with very few cuts and deliberate camera movements to build a dramatic mood.",
+        "losers": "Extremely fast-paced with rapid cuts, most shots lasting less than a second, to show a complex process in a short time.",
+        "delta_note": "Winners hold a single opening shot for three to five seconds before the first cut, signaling craft and confidence. Losers cut every second in a montage rhythm the algorithm reads as a commercial and skips."
+      }
+    ],
+    "top_videos": [
+      {
+        "id": "7643954302851091726",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@ghost2is_/video/7643954302851091726",
+        "thumb": "assets/thumbs/7643954302851091726.jpg",
+        "views": 85600,
+        "engagement": 25.31,
+        "who": "owner",
+        "hook_type": "Curiosity",
+        "craft": {
+          "hook": "An extreme close-up on a wet, black car headlight with a glowing yellow LED strip, followed by a slow pull-back to reveal the full front of a modified Lexus in a grassy field.",
+          "structure": "showcase / Starts with casual hype and curiosity, then transitions into a feeling of awe and admiration, creating an epic and serious tone.",
+          "audio": "A dramatic, slowed, and reverb-heavy orchestral score from the movie 'The Dark Knight'.; trending audio; voiceover (Begins with a casual, hyped male voice, then layers in a serious, somber female voice from a movie clip.); sound effects",
+          "why": [
+            "The audio mashup of a casual meme intro with a dramatic movie score creates a powerful, epic, and slightly humorous effect.",
+            "High-quality, cinematic visuals make the car look exceptionally impressive and desirable.",
+            "It strongly appeals to a niche audience (car enthusiasts) while also being entertaining to a broader audience due to the meme audio."
+          ]
+        }
+      },
+      {
+        "id": "7645247870458760461",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@isaiahsgarage_/video/7645247870458760461",
+        "thumb": "assets/thumbs/7645247870458760461.jpg",
+        "views": 4372,
+        "engagement": 22.69,
+        "who": "owner",
+        "hook_type": "Curiosity",
+        "craft": {
+          "hook": "A low-angle shot of a freshly washed, black, modified Lexus LS400. The camera then quickly cuts to a close-up of the chrome front wheel.",
+          "structure": "Showcase / From initial admiration to a feeling of cool satisfaction, creating a cohesive and pleasing 'vibe'.",
+          "audio": "A smooth, soulful 90s R&B track (Ginuwine - 'So Anxious') with a relaxed beat and male vocals.; trending audio",
+          "why": [
+            "Strong niche appeal to the JDM and VIP car communities.",
+            "Perfect synergy between the clean visuals and the nostalgic, 'vibey' music.",
+            "High rewatchability due to its short length and satisfying audio-visual loop."
+          ]
+        }
+      },
+      {
+        "id": "7606253684850314510",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@lock.4is/video/7606253684850314510",
+        "thumb": "assets/thumbs/7606253684850314510.jpg",
+        "views": 1200000,
+        "engagement": 22.25,
+        "who": "owner",
+        "hook_type": "Curiosity",
+        "craft": {
+          "hook": "A point-of-view shot from the driver's seat of a dark Lexus interior, focusing on the unlit dashboard and steering wheel. The dashboard then dramatically illuminates with a complex animation.",
+          "structure": "aesthetic showcase / From anticipation and mystery in the dark to satisfaction and awe as the modern, sleek dashboard comes to life.",
+          "audio": "A slow, atmospheric, and bass-heavy phonk/electronic track (METAMORPHOSIS by INTERWORLD).; trending audio",
+          "why": [
+            "The visual sequence is extremely satisfying and aesthetically pleasing, tapping into the ASMR trend.",
+            "It leverages a massively trending audio that is algorithmically favored and culturally associated with 'cool' content.",
+            "It has a strong niche appeal to car enthusiasts who appreciate the specific design and technology of the Lexus F-Sport model."
+          ]
+        }
+      },
+      {
+        "id": "7643710650190941471",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@anthony4is_/video/7643710650190941471",
+        "thumb": "assets/thumbs/7643710650190941471.jpg",
+        "views": 8152,
+        "engagement": 21.99,
+        "who": "owner",
+        "hook_type": "Curiosity",
+        "craft": {
+          "hook": "A wide shot of a sleek, black, modified Lexus parked in front of a modern brick building. The camera slowly zooms in on the front of the car.",
+          "structure": "showcase / Starts with admiration for the car's appearance and maintains a consistent feeling of coolness, confidence, and aesthetic appreciation throughout.",
+          "audio": "A confident, bass-heavy rap song (Rio Da Yung OG - Fun Fact) with a distinct beat that complements the car's bold aesthetic.; trending audio",
+          "why": [
+            "Strong niche appeal to the car enthusiast community",
+            "High-quality, clean cinematography that is visually satisfying",
+            "Perfect pairing of a confident, trending audio with the luxury/modified car aesthetic"
+          ]
+        }
+      },
+      {
+        "id": "7610282093700009247",
+        "brand": "lexus",
+        "url": "https://www.tiktok.com/@ouuhegottalexus/video/7610282093700009247",
+        "thumb": "assets/thumbs/7610282093700009247.jpg",
+        "views": 664600,
+        "engagement": 21.41,
+        "who": "owner",
+        "hook_type": "Curiosity",
+        "craft": {
+          "hook": "A dark, luxurious car interior is revealed, highlighted by white ambient lighting strips and a starlight headliner, creating a high-end, moody atmosphere.",
+          "structure": "Aesthetic Showcase / Starts with intrigue and maintains a consistent mood of cool, luxurious relaxation and sophistication throughout.",
+          "audio": "A sped-up, sensual R&B song with a smooth beat and female vocals (Ariana Grande - Positions).; trending audio",
+          "why": [
+            "Strong 'Vibe' Creation: The perfect sync of moody visuals and sensual R&B music creates a powerful, shareable mood.",
+            "Aspirational Content: Showcases a highly desirable luxury item (custom car interior), which taps into viewer aspirations.",
+            "Visually Satisfying: The clean lines, high-contrast lighting, and smooth camera work are aesthetically pleasing and almost hypnotic."
+          ]
+        }
+      }
+    ]
+  },
+  "insight": {
+    "owners_vs_brand": {
+      "owner_share_pct": 82.9,
+      "brand_share_pct": 17.1,
+      "evidence": [
+        "Owner and creator videos drove 83 percent of total engagement while accounting for 54 of 126 videos in the set.",
+        {
+          "label": "Top 5 by engagement",
+          "value": "5 of 5 are owner or creator footage"
+        },
+        {
+          "label": "Brand studio average engagement rate",
+          "value": "5.5 percent"
+        },
+        {
+          "label": "Owner and creator average engagement rate",
+          "value": "10.5 percent"
+        }
+      ]
+    },
+    "brand_gap": [
+      {
+        "category_winning_trait": "Owner and creator point of view rather than brand studio film",
+        "brand_today": "A brand account cannot author this by definition, but 1 of Lexus's 22 posts borrow the style: handheld framing, no narration.",
+        "gap_note": "Category winners do this 57 percent of the time against the losers' 29. The lane for Lexus is amplification: resharing and commissioning the footage, not imitating it from the studio.",
+        "brand_fit_score": 0.53
+      },
+      {
+        "category_winning_trait": "Trending borrowed sound for discoverability",
+        "brand_today": "Lexus does this in 5 percent of its own posts.",
+        "gap_note": "Category winners do this 54 percent of the time against the losers' 29, and Lexus sits at 5. An open lane.",
+        "brand_fit_score": 0.52
+      },
+      {
+        "category_winning_trait": "Restrained text on screen, one line rather than stacked",
+        "brand_today": "Lexus does this in 32 percent of its own posts.",
+        "gap_note": "Category winners do this 57 percent of the time against the losers' 29, and Lexus sits at 32. An open lane.",
+        "brand_fit_score": 0.56
+      },
+      {
+        "category_winning_trait": "Fast cut montage rhythm",
+        "brand_today": "Lexus does this in 77 percent of its own posts.",
+        "gap_note": "Lexus already does this more than the category winners, 77 percent against 54. Volume is not the problem here.",
+        "brand_fit_score": 0.47
+      }
+    ],
+    "audience_voice": [
+      {
+        "cluster": "Desire and admiration",
+        "sentiment": "pos",
+        "volume": 1595,
+        "sample_comments": [
+          "What do u think?…. I want mine like this",
+          "I loveeee uuuuu",
+          "The more I see this car the more I want it 😮‍💨"
+        ]
+      },
+      {
+        "cluster": "Brand and competitor comparison",
+        "sentiment": "mixed",
+        "volume": 315,
+        "sample_comments": [
+          "Omo, L for Lexus oo 🥹🖤",
+          "[Sticker] Lexus cramps again",
+          "dear Lexus"
+        ]
+      },
+      {
+        "cluster": "Price and aspiration",
+        "sentiment": "mixed",
+        "volume": 180,
+        "sample_comments": [
+          "One day I’ll have the 3is conversion😅",
+          "One day 👌🏽",
+          "One day 😳"
+        ]
+      },
+      {
+        "cluster": "Owner loyalty and reliability",
+        "sentiment": "pos",
+        "volume": 28,
+        "sample_comments": [
+          "Where can I get a reliable steering wheel for my 13 gs350 fsport",
+          "my family owns a Lexus but it’s not the LS series it’s an ES",
+          "Just keep it in there for a few more years got it?"
+        ]
+      },
+      {
+        "cluster": "Sound design and restraint",
+        "sentiment": "pos",
+        "volume": 15,
+        "sample_comments": [
+          "I NEED this audio 🫩",
+          "Are the door butterfly",
+          "musica/song??"
+        ]
+      },
+      {
+        "cluster": "Craft and detail",
+        "sentiment": "pos",
+        "volume": 13,
+        "sample_comments": [
+          "[Sticker] I see they made it more into a LFA🤤",
+          "It was made for me 🥹",
+          "So I buy a lc500 or rcf with laufey stitching"
+        ]
+      }
+    ]
+  },
+  "direzione": {
+    "brief": {
+      "title": "Lexus: owner and creator point of view rather than brand studio film",
+      "thesis": "On owner and creator point of view rather than brand studio film the brand and the category winners sit level. Category winners do this 57 percent of the time against the losers' 29. The lane for Lexus is amplification: resharing and commissioning the footage, not imitating it from the studio. The opportunity is not a new tactic but a sharper execution of the one already in use.",
+      "concept": "An extreme closeup of Lexus craftsmanship the viewer cannot immediately place. Hold the ambiguity. Let the object reveal itself.",
+      "format": "Vertical nine by sixteen. One held hook in the first second, sound that carries, one quiet line of text late, logo last.",
+      "hook_formula": "Symbol of Subject (e.g., key) + Quick Pan/Transition + Full Reveal of Impressive Subject (e.g., car).",
+      "ties_to": []
+    },
+    "next_moves": [
+      "Test owner and creator point of view rather than brand studio film selectively, in the brand register rather than the category default.",
+      "Test trending borrowed sound for discoverability selectively, in the brand register rather than the category default.",
+      "Test restrained text on screen, one line rather than stacked selectively, in the brand register rather than the category default.",
+      "Test fast cut montage rhythm selectively, in the brand register rather than the category default.",
+      "Stand up a weekly listen on the comment clusters and brief against what the audience is already saying."
+    ]
+  }
+}

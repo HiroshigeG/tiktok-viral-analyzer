@@ -1,0 +1,10 @@
+# TikTok Viral Analyzer — pipeline dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Strategic layer (analyze.py). Optional at runtime: if ANTHROPIC_API_KEY is unset,
+# analyze.py authors the strategic layer directly and flags it.
+anthropic>=0.40.0
+
+# Contract validation (signal.py tests)
+jsonschema>=4.0.0

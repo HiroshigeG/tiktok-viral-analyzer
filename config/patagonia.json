@@ -1,0 +1,28 @@
+{
+  "_hashtag_note": "The bare tag 'patagonia' is dominated by the Argentine and Chilean region, not the brand. 'patagoniaclothing' keeps the pool on actual product and owner content. This is exactly the collision the template warns about.",
+  "subject": {
+    "key": "patagonia",
+    "name": "Patagonia",
+    "handle": "@patagonia",
+    "hashtag": "patagoniaclothing"
+  },
+  "competitors": [
+    {
+      "key": "arcteryx",
+      "name": "Arc'teryx",
+      "handle": "@arcteryx",
+      "hashtag": "arcteryx"
+    },
+    {
+      "key": "northface",
+      "name": "The North Face",
+      "handle": "@thenorthface",
+      "hashtag": "thenorthface"
+    }
+  ],
+  "brief": "config/patagonia-brief.md",
+  "generation": {
+    "pipeline_line": "ComfyUI: a photoreal base model, handheld camera LoRA, then AnimateDiff for motion, then a rough cut finish.",
+    "grade": "Flat, cold, slightly underexposed. Real weather rather than golden hour. No colour pop."
+  }
+}

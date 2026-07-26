@@ -1,0 +1,36 @@
+{
+  "_comment": "Copy this to config/brand.json and fill it in. Delete the underscore keys; they are notes, not settings. Every value here is read by the pipeline, nothing about the brand is hardcoded in the Python.",
+
+  "_subject": "The brand you are advising. Its own posts become the 'what the brand does today' half of the gap analysis, so this is not just another entry in the list. handle is the official TikTok account, hashtag is where owner and creator content lives.",
+  "subject": {
+    "key": "yourbrand",
+    "name": "Your Brand",
+    "handle": "@yourbrand",
+    "hashtag": "yourbrand"
+  },
+
+  "_competitors": "The comparison set. Two is the tested shape, the closest challenger plus the category anchor, but any number works. Check every hashtag on TikTok before committing it: bare brand words collide badly and a polluted pool produces confident nonsense.",
+  "competitors": [
+    {
+      "key": "challenger",
+      "name": "Challenger Brand",
+      "handle": "@challenger",
+      "hashtag": "challenger"
+    },
+    {
+      "key": "anchor",
+      "name": "Anchor Brand",
+      "handle": "@anchor",
+      "hashtag": "anchor"
+    }
+  ],
+
+  "_brief": "Path from the repo root to the brand brief. This is the rubric every brand_fit score answers to. Start from config/TEMPLATE-brief.md. A brief left describing someone else's brand silently produces authoritative, meaningless scores.",
+  "brief": "config/yourbrand-brief.md",
+
+  "_generation": "Optional, used by make_prompt.py for the MAKE step. Omit the whole block and it falls back to neutral defaults.",
+  "generation": {
+    "pipeline_line": "ComfyUI: your base model plus a brand LoRA, then AnimateDiff for motion, then an edit finish.",
+    "grade": "Describe the colour grade in the brand register, for example warm near black with ivory highlights and restrained saturation."
+  }
+}

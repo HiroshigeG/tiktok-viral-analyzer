@@ -1,0 +1,359 @@
+{
+  "brand": "lexus",
+  "profile": "@lexususa",
+  "scraped_at": "2026-05-01T12:00:00Z",
+  "pool_size": 40,
+  "videos": [
+    {
+      "id": "lx_001",
+      "brand": "lexus",
+      "url": "https://www.tiktok.com/@lexusowner_kyle/video/lx001",
+      "thumb": "data/raw/thumbs/lx_001.jpg",
+      "local_video_path": "",
+      "text": "The craft in every detail. #lexus #takumi",
+      "created_at": "2026-04-10T09:00:00Z",
+      "author": {
+        "name": "@lexusowner_kyle",
+        "verified": false,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 2800000,
+        "likes": 260000,
+        "comments": 35000,
+        "shares": 24200,
+        "engagement_rate": 11.4
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "the door sound alone sold me",
+          "likes": 4200,
+          "author": "@user1"
+        },
+        {
+          "text": "this is what quiet luxury actually means",
+          "likes": 3800,
+          "author": "@user2"
+        },
+        {
+          "text": "the stitching is insane",
+          "likes": 2900,
+          "author": "@user3"
+        },
+        {
+          "text": "on my third one never going back",
+          "likes": 2100,
+          "author": "@user4"
+        },
+        {
+          "text": "dream car fr saving up for this one",
+          "likes": 1800,
+          "author": "@user5"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_001",
+          "title": "original sound",
+          "author": "@lexusowner_kyle",
+          "is_original": true
+        },
+        "hashtags": [
+          "lexus",
+          "luxury",
+          "carfyp",
+          "takumi"
+        ],
+        "duration_sec": 18
+      }
+    },
+    {
+      "id": "lx_002",
+      "brand": "lexus",
+      "url": "https://www.tiktok.com/@contentcreator_mia/video/lx002",
+      "thumb": "data/raw/thumbs/lx_002.jpg",
+      "local_video_path": "",
+      "text": "Quiet confidence. #lexus #luxury",
+      "created_at": "2026-04-12T10:00:00Z",
+      "author": {
+        "name": "@contentcreator_mia",
+        "verified": true,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 980000,
+        "likes": 62000,
+        "comments": 11000,
+        "shares": 8340,
+        "engagement_rate": 8.3
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "no annoying voiceover finally",
+          "likes": 3100,
+          "author": "@user6"
+        },
+        {
+          "text": "the grain on that leather is incredible",
+          "likes": 2700,
+          "author": "@user7"
+        },
+        {
+          "text": "want this so bad",
+          "likes": 2400,
+          "author": "@user8"
+        },
+        {
+          "text": "japanese craft hits different",
+          "likes": 1900,
+          "author": "@user9"
+        },
+        {
+          "text": "beautiful but who can afford it",
+          "likes": 1500,
+          "author": "@user10"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_202",
+          "title": "chill lofi type beat",
+          "author": "@lofiproducer",
+          "is_original": false
+        },
+        "hashtags": [
+          "lexus",
+          "luxury",
+          "carfyp",
+          "quietluxury"
+        ],
+        "duration_sec": 15
+      }
+    },
+    {
+      "id": "lx_003",
+      "brand": "lexus",
+      "url": "https://www.tiktok.com/@lexususa/video/lx003",
+      "thumb": "data/raw/thumbs/lx_003.jpg",
+      "local_video_path": "",
+      "text": "Every stitch, every hour. #lexus",
+      "created_at": "2026-04-15T11:00:00Z",
+      "author": {
+        "name": "@lexususa",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 1200000,
+        "likes": 65000,
+        "comments": 11000,
+        "shares": 9200,
+        "engagement_rate": 7.1
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "you can feel the hours in this",
+          "likes": 2800,
+          "author": "@user11"
+        },
+        {
+          "text": "the leather grain detail is stunning quality",
+          "likes": 2100,
+          "author": "@user12"
+        },
+        {
+          "text": "need this in my life",
+          "likes": 1800,
+          "author": "@user13"
+        },
+        {
+          "text": "saving up for years for this",
+          "likes": 1400,
+          "author": "@user14"
+        },
+        {
+          "text": "this beats bmw on craft",
+          "likes": 1200,
+          "author": "@user15"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_310",
+          "title": "leather asmr trending",
+          "author": "@asmrcreator",
+          "is_original": false
+        },
+        "hashtags": [
+          "lexus",
+          "luxury",
+          "carfyp",
+          "craft"
+        ],
+        "duration_sec": 22
+      }
+    },
+    {
+      "id": "lx_004",
+      "brand": "lexus",
+      "url": "https://www.tiktok.com/@lexusowner_james/video/lx004",
+      "thumb": "data/raw/thumbs/lx_004.jpg",
+      "local_video_path": "",
+      "text": "Morning drive. Nothing else. #lexus #owner",
+      "created_at": "2026-04-18T07:00:00Z",
+      "author": {
+        "name": "@lexusowner_james",
+        "verified": false,
+        "is_brand_account": false
+      },
+      "metrics": {
+        "views": 1900000,
+        "likes": 152000,
+        "comments": 22000,
+        "shares": 12200,
+        "engagement_rate": 9.8
+      },
+      "performance_tier": "top",
+      "comments": [
+        {
+          "text": "the door sound is everything",
+          "likes": 3500,
+          "author": "@user16"
+        },
+        {
+          "text": "my dad had one now i do too",
+          "likes": 3000,
+          "author": "@user17"
+        },
+        {
+          "text": "300k miles and still smooth",
+          "likes": 2600,
+          "author": "@user18"
+        },
+        {
+          "text": "the ambient light inside is gorgeous",
+          "likes": 2200,
+          "author": "@user19"
+        },
+        {
+          "text": "owner footage always hits harder than brand stuff",
+          "likes": 1900,
+          "author": "@user20"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_002",
+          "title": "original sound",
+          "author": "@lexusowner_james",
+          "is_original": true
+        },
+        "hashtags": [
+          "lexus",
+          "luxury",
+          "carfyp",
+          "ownerlife"
+        ],
+        "duration_sec": 28
+      }
+    },
+    {
+      "id": "lx_005",
+      "brand": "lexus",
+      "url": "https://www.tiktok.com/@lexususa/video/lx005",
+      "thumb": "data/raw/thumbs/lx_005.jpg",
+      "local_video_path": "",
+      "text": "Introducing the all-new Lexus ES. Available now. #lexus",
+      "created_at": "2026-04-20T14:00:00Z",
+      "author": {
+        "name": "@lexususa",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 180000,
+        "likes": 2400,
+        "comments": 550,
+        "shares": 290,
+        "engagement_rate": 1.8
+      },
+      "performance_tier": "bottom",
+      "comments": [
+        {
+          "text": "feels like a boring ad",
+          "likes": 150,
+          "author": "@user21"
+        },
+        {
+          "text": "too much voiceover talking",
+          "likes": 120,
+          "author": "@user22"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_405",
+          "title": "luxury brand beat vol2",
+          "author": "@stockmusic",
+          "is_original": false
+        },
+        "hashtags": [
+          "lexus",
+          "luxury",
+          "newcar"
+        ],
+        "duration_sec": 30
+      }
+    },
+    {
+      "id": "lx_006",
+      "brand": "lexus",
+      "url": "https://www.tiktok.com/@lexususa/video/lx006",
+      "thumb": "data/raw/thumbs/lx_006.jpg",
+      "local_video_path": "",
+      "text": "Experience luxury. Lexus. #lexus #luxury",
+      "created_at": "2026-04-22T15:00:00Z",
+      "author": {
+        "name": "@lexususa",
+        "verified": true,
+        "is_brand_account": true
+      },
+      "metrics": {
+        "views": 95000,
+        "likes": 850,
+        "comments": 190,
+        "shares": 100,
+        "engagement_rate": 1.2
+      },
+      "performance_tier": "bottom",
+      "comments": [
+        {
+          "text": "boring compared to genesis lately",
+          "likes": 80,
+          "author": "@user23"
+        },
+        {
+          "text": "seen this format a thousand times",
+          "likes": 60,
+          "author": "@user24"
+        }
+      ],
+      "signals": {
+        "sound": {
+          "id": "snd_003",
+          "title": "original sound",
+          "author": "@lexususa",
+          "is_original": true
+        },
+        "hashtags": [
+          "lexus",
+          "luxury"
+        ],
+        "duration_sec": 30
+      }
+    }
+  ]
+}

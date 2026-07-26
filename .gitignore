@@ -1,0 +1,24 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# raw scraped data + downloaded videos
+data/raw/
+data/videos/
+downloaded_videos/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os / tooling
+.DS_Store
+.vercel
+node_modules/
+.playwright-mcp/
+
+# Active brand config: local to each user, never the repo's business
+config/brand.json
